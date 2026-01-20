@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import migrationImg from '/Users/akhilmali/.gemini/antigravity/brain/408c1f1e-8664-4fe1-9e45-c5093b951d81/hero_migration_1768728442687.png';
-import studyImg from '/Users/akhilmali/.gemini/antigravity/brain/408c1f1e-8664-4fe1-9e45-c5093b951d81/hero_study_overseas_1768728459142.png';
+// import migrationImg from '/Users/akhilmali/.gemini/antigravity/brain/408c1f1e-8664-4fe1-9e45-c5093b951d81/hero_migration_1768728442687.png';
+// import studyImg from '/Users/akhilmali/.gemini/antigravity/brain/408c1f1e-8664-4fe1-9e45-c5093b951d81/hero_study_overseas_1768728459142.png';
 
 function Hero() {
     const [currentSlide, setCurrentSlide] = useState(0);
