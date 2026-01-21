@@ -431,7 +431,7 @@ function Header() {
                         {/* Footer CTA */}
                         <div className="p-5 border-t border-gray-200 space-y-3 bg-gray-50">
                             <a
-                                href="tel:+919876543210"
+                                href="tel:+919672233443"
                                 className="flex items-center justify-center gap-2 w-full py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 active:scale-95 transition-all shadow-lg shadow-blue-200"
                             >
                                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -440,7 +440,7 @@ function Header() {
                                 Call Us Now
                             </a>
                             <div className="text-center text-xs text-gray-500">
-                                +91 9876543210
+                                +91 9672233443
                             </div>
                         </div>
                     </div>
