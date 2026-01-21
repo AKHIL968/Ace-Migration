@@ -15,7 +15,9 @@ function Home() {
             <SatisfactionGuaranteed />
             <WhoWeAre />
             <GlobalPartners />
-            <ContactForm />
+            <div id="contact">
+                <ContactForm />
+            </div>
         </div>
     )
 }
