@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo-PhotoRoom.png';
+import logo from '../assets/logo-Photoroom.png';
 import EnquiryForm from '../components/EnquiryForm';
 
 function Header() {
