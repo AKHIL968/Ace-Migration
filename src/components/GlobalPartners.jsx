@@ -10,18 +10,18 @@ const GlobalPartners = () => {
                     {/* Left Content */}
                     <div className="w-full lg:w-1/2 space-y-8">
                         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                            We're Global Partner of <br className="hidden md:block" />
-                            <span className="text-gray-900">100+ Institutes</span>
+                            Connected to <br className="hidden md:block" />
+                            <span className="text-gray-900">Leading Universities Worldwide</span>
                         </h2>
 
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            Discover the world of education through our extensive global network, as we proudly stand as a trusted partner of 100+ educational institutes. Unlock a multitude of academic opportunities and access top-notch institutions around the globe.
+                            Your pathway to world-class education starts here. Through our established partnerships with prestigious institutions across the globe, we connect you with exceptional learning opportunities that match your aspirations and goals.
                         </p>
 
                         <div className="pt-2">
                             <button className="group relative px-8 py-3.5 bg-orange-500 text-white font-bold rounded overflow-hidden shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300">
                                 <span className="relative z-10 flex items-center gap-2 text-sm md:text-base uppercase tracking-wider">
-                                    More
+                                    Explore Partners
                                     <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>

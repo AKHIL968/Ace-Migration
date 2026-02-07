@@ -37,30 +37,29 @@ const SatisfactionGuaranteed = () => {
                     <div className="w-full lg:w-1/2 text-white space-y-8 order-1 lg:order-2">
                         <div>
                             <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-                                Satisfaction Guaranteed
+                                Your Success Is Our Priority
                             </h2>
 
                             <div className="w-20 h-1 bg-orange-500 rounded mb-6"></div>
 
                             <p className="text-gray-300 text-lg leading-relaxed">
-                                With a client-centric approach, we have grown to be a successful and reputed consultants with expertise in various migration services thereby ensuring best service and results for our clients.
+                                We're committed to turning your international dreams into reality. Our dedicated team brings years of expertise and personalized guidance to every step of your journey, ensuring you receive the support you deserve.
                             </p>
                         </div>
 
                         <ul className="space-y-4">
                             {[
-                                "Team of Qualified Registered Migration Agents",
-                                "PIER Qualified Education Counselors",
-                                "Extensive experience of complex visa cases",
-                                "Professional services at affordable prices",
-                                "Virtual Consultations (Your Time, Your Place)"
+                                "Certified Immigration Experts on Your Side",
+                                "Personalized Guidance from Start to Finish",
+                                "Proven Track Record with Complex Applications",
+                                "Transparent Pricing with No Hidden Fees",
+                                "Flexible Online Consultations Available 24/7"
                             ].map((item, index) => (
                                 <li key={index} className="flex items-center gap-4 group cursor-default">
                                     <div className="flex-shrink-0 w-6 h-6 border border-white/20 rounded bg-white/5 flex items-center justify-center group-hover:bg-orange-500 group-hover:border-orange-500 transition-all duration-300">
                                         <svg className="w-3.5 h-3.5 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                                         </svg>
-                                        {/* Checkmark always visible alternative if preferred, but let's do hover effect for 'impressive' */}
                                         <svg className="w-3.5 h-3.5 text-orange-500 absolute group-hover:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                                         </svg>
@@ -72,7 +71,6 @@ const SatisfactionGuaranteed = () => {
 
                         {/* Flags */}
                         <div className="flex items-center gap-6 py-2">
-                            {/* Using FlagCDN for high quality flags */}
                             <img src="https://flagcdn.com/w80/au.png" alt="Australia" title="Australia" className="h-10 w-auto rounded shadow-lg hover:-translate-y-1 hover:shadow-orange-500/20 transition-all duration-300 ring-2 ring-white/10 hover:ring-orange-500/50" />
                             <img src="https://flagcdn.com/w80/ca.png" alt="Canada" title="Canada" className="h-10 w-auto rounded shadow-lg hover:-translate-y-1 hover:shadow-orange-500/20 transition-all duration-300 ring-2 ring-white/10 hover:ring-orange-500/50" />
                             <img src="https://flagcdn.com/w80/gb.png" alt="United Kingdom" title="United Kingdom" className="h-10 w-auto rounded shadow-lg hover:-translate-y-1 hover:shadow-orange-500/20 transition-all duration-300 ring-2 ring-white/10 hover:ring-orange-500/50" />
@@ -82,7 +80,7 @@ const SatisfactionGuaranteed = () => {
                         <div className="pt-4">
                             <button className="group relative px-8 py-3.5 bg-orange-500 text-white font-bold rounded overflow-hidden shadow-lg shadow-orange-900/20 transition-all hover:shadow-orange-500/40">
                                 <span className="relative z-10 flex items-center gap-2">
-                                    APPLY NOW
+                                    GET STARTED TODAY
                                     <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>

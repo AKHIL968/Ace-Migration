@@ -18,13 +18,16 @@ const WhoWeAre = () => {
 
                         <div className="space-y-4 text-gray-600 text-lg leading-relaxed text-justify">
                             <p>
-                                We are experienced migration agents and education counselors with expertise in Australian migration laws and policies. Our friendly and strategic team provides a full range of services, from helping students get into the best universities to obtaining permanent residency.
+                                We are a team of qualified migration consultants and education advisors with in-depth knowledge of Australian immigration regulations and study pathways. Our approach is friendly, strategic, and fully tailored to each client’s goals.
                             </p>
                             <p>
-                                We have access to some of the best educational institutions in Australia. With a client-centric approach, our experienced migration agents and education counselors are dedicated to understanding your unique needs and aspirations, guiding you towards a successful future in Australia.
+                                From securing admission in reputed Australian universities to supporting permanent residency applications, we offer complete guidance at every stage of your journey. We work closely with leading educational institutions across Australia to ensure students receive the right opportunities aligned with their academic and career plans.
                             </p>
                             <p>
-                                We provide all Australian immigration law services including appeals of citizenship refusals. Our ethical services aim to help you build a better future.
+                                Our client-focused process begins with understanding your background, ambitions, and long-term objectives. Based on this, our experienced advisors provide clear, honest, and practical solutions to help you move forward with confidence.
+                            </p>
+                            <p>
+                                We handle a wide range of Australian immigration matters, including visa applications, compliance guidance, and appeals related to visa or citizenship refusals. With a strong commitment to ethical practice and transparency, our mission is to help you create a secure and successful future in Australia.
                             </p>
                         </div>
 
