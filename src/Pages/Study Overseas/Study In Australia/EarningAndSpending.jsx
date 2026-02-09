@@ -18,13 +18,13 @@ const EarningAndSpending = () => {
 
                 <div className="container mx-auto px-4 relative z-10 text-center">
                     <span className="inline-block py-1 px-3 rounded-full bg-green-400/20 text-green-300 text-xs md:text-sm font-semibold tracking-wider mb-6 border border-green-400/30 uppercase backdrop-blur-sm">
-                        Financial Guide
+                        Student Finance
                     </span>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
                         Earning & Spending in Australia
                     </h1>
                     <p className="text-lg md:text-xl text-emerald-100 max-w-2xl mx-auto leading-relaxed">
-                        Navigating finances as an international student. A guide to cost of living, part-time work, and financial rights.
+                        Master your student budget while studying abroad. Your complete resource for living costs, employment, and financial wellbeing.
                     </p>
                 </div>
             </section>
@@ -35,9 +35,9 @@ const EarningAndSpending = () => {
 
                     {/* Intro Section */}
                     <div className="max-w-4xl mx-auto mb-16 text-center">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Managing Your Finances</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Your Financial Roadmap</h2>
                         <p className="text-gray-600 leading-relaxed text-lg">
-                            Working while studying is a great way to gain experience and manage expenses. Australia offers robust opportunities and protections for student workers.
+                            Balancing work and academics is achievable for international students. Australia provides excellent employment opportunities alongside strong workplace protections.
                         </p>
                     </div>
 
@@ -48,9 +48,9 @@ const EarningAndSpending = () => {
                             <div className="w-14 h-14 bg-green-50 rounded-full flex items-center justify-center mb-6 text-green-600">
                                 <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-4">Accommodation</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4">Housing Costs</h3>
                             <p className="text-gray-600">
-                                Biggest expense. Costs vary by city and type (on-campus vs private rental).
+                                Your primary expense. Prices fluctuate based on location and housing choice (campus residence or independent rental).
                             </p>
                         </div>
 
@@ -59,9 +59,9 @@ const EarningAndSpending = () => {
                             <div className="w-14 h-14 bg-emerald-50 rounded-full flex items-center justify-center mb-6 text-emerald-600">
                                 <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-4">Daily Expenses</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4">Everyday Living</h3>
                             <p className="text-gray-600">
-                                Groceries, transport, internet, and electricity. Budgeting is key.
+                                Food shopping, transportation, connectivity, and utilities. Smart planning keeps costs manageable.
                             </p>
                         </div>
 
@@ -70,9 +70,9 @@ const EarningAndSpending = () => {
                             <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mb-6 text-teal-600">
                                 <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-4">Lifestyle</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4">Recreation</h3>
                             <p className="text-gray-600">
-                                Entertainment, dining out, and travel. Australia offers many free activities too!
+                                Social activities, restaurants, and adventures. Don't forget—Australia has countless no-cost experiences!
                             </p>
                         </div>
                     </div>
@@ -85,38 +85,38 @@ const EarningAndSpending = () => {
 
                         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
                             <div>
-                                <h3 className="text-3xl font-bold text-white mb-6">Work While You Study</h3>
+                                <h3 className="text-3xl font-bold text-white mb-6">Employment During Studies</h3>
                                 <p className="text-emerald-100 text-lg mb-8">
-                                    International students have the right to work, helping you support yourself and gain local experience.
+                                    Student visa holders can legally work, enabling financial independence and valuable professional development.
                                 </p>
 
                                 <div className="space-y-6">
                                     <div className="flex gap-4">
                                         <div className="w-12 h-12 bg-emerald-800 rounded-lg flex items-center justify-center shrink-0 text-emerald-400 font-bold text-xl">40h</div>
                                         <div>
-                                            <h4 className="text-lg font-bold text-white">Fortnightly Limit</h4>
-                                            <p className="text-emerald-200 text-sm">You can work up to 40 hours every two weeks while your course is in session.</p>
+                                            <h4 className="text-lg font-bold text-white">Bi-Weekly Hours</h4>
+                                            <p className="text-emerald-200 text-sm">Maximum 40 hours per fortnight during academic terms.</p>
                                         </div>
                                     </div>
                                     <div className="flex gap-4">
                                         <div className="w-12 h-12 bg-emerald-800 rounded-lg flex items-center justify-center shrink-0 text-emerald-400 font-bold text-xl">∞</div>
                                         <div>
-                                            <h4 className="text-lg font-bold text-white">Result Breaks</h4>
-                                            <p className="text-emerald-200 text-sm">Work unrestricted hours during scheduled semester breaks.</p>
+                                            <h4 className="text-lg font-bold text-white">Break Periods</h4>
+                                            <p className="text-emerald-200 text-sm">Unlimited hours permitted during official study breaks.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-                                <h4 className="text-xl font-bold text-white mb-6">Where to find work?</h4>
+                                <h4 className="text-xl font-bold text-white mb-6">Job Opportunities</h4>
                                 <ul className="space-y-4">
                                     {[
-                                        "Hospitality (Cafes, Restaurants)",
-                                        "Retail & Sales",
-                                        "Tutoring & Administration",
-                                        "Tourism & Events",
-                                        "University Campus Jobs"
+                                        "Food Service Industry",
+                                        "Customer Service Roles",
+                                        "Academic Support & Office Work",
+                                        "Travel & Hospitality Sector",
+                                        "On-Campus Employment"
                                     ].map((job, idx) => (
                                         <li key={idx} className="flex items-center gap-3 text-emerald-100">
                                             <span className="w-2 h-2 bg-yellow-400 rounded-full"></span>
@@ -126,7 +126,7 @@ const EarningAndSpending = () => {
                                 </ul>
                                 <div className="mt-8 pt-6 border-t border-white/20">
                                     <p className="text-emerald-200 text-sm">
-                                        <span className="text-yellow-400 font-bold">Pro Tip:</span> Use online job sites like Seek, LinkedIn, or your university's career hub.
+                                        <span className="text-yellow-400 font-bold">Insider Tip:</span> Explore platforms like Seek, LinkedIn, or your institution's career portal.
                                     </p>
                                 </div>
                             </div>
@@ -139,9 +139,9 @@ const EarningAndSpending = () => {
                             <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                         </div>
                         <div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">Know Your Rights</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">Workplace Protections</h3>
                             <p className="text-gray-700">
-                                Everyone working in Australia, including international students, is entitled to basic rights and protections at work. This includes a <strong>minimum wage</strong> and a safe working environment.
+                                Australian employment law covers all workers, including international students. You're guaranteed <strong>fair wages</strong> and safe working conditions as fundamental rights.
                             </p>
                         </div>
                     </div>
