@@ -10,7 +10,7 @@ const ParentVisa = () => {
                 <div className="absolute inset-0 z-0">
                     <img
                         src={heroBg}
-                        alt="Family Reunion"
+                        alt="Australia Parent Visa"
                         className="w-full h-full object-cover top-0 opacity-40"
                     />
                     <div className="absolute inset-0 bg-amber-900/40 mix-blend-multiply"></div>
@@ -19,13 +19,13 @@ const ParentVisa = () => {
 
                 <div className="container mx-auto px-4 relative z-10 text-center">
                     <span className="inline-block py-1 px-3 rounded-full bg-amber-500/20 text-amber-200 text-xs md:text-sm font-semibold tracking-wider mb-6 border border-amber-500/30 uppercase backdrop-blur-sm">
-                        Family Visa
+                        Family Migration
                     </span>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
-                        Parent Visa
+                        Australia Parent Visa Pathways
                     </h1>
                     <p className="text-lg md:text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">
-                        Subclasses 103, 143, 173, 804, 884, 864, 870. Reunite with your children in Australia.
+                        Explore temporary and permanent visa options that allow parents to reunite with their children in Australia.
                     </p>
                 </div>
             </section>
@@ -36,98 +36,143 @@ const ParentVisa = () => {
 
                     {/* Intro */}
                     <div className="max-w-4xl mx-auto mb-20 text-center">
-                        <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Simple Approach To Immigration</h2>
+                        <h2 className="text-3xl font-bold text-slate-900 mb-6">
+                            Specialist Guidance for Parent Migration
+                        </h2>
                         <p className="text-slate-600 leading-relaxed text-lg">
-                            We specialize in complex parent migration cases. Whether you are onshore or offshore, we help navigate the balance of family tests, health requirements, and sponsorship obligations to bring your family together.
+                            Parent visa applications are among the most complex family migration pathways.
+                            They often involve the Balance of Family Test, Assurance of Support, health checks,
+                            and long processing queues. Our team assists both onshore and offshore applicants
+                            in selecting the most suitable subclass.
                         </p>
                     </div>
 
-                    {/* Sponsored Parent Visa (870) */}
+                    {/* Sponsored Parent Visa 870 */}
                     <div className="mb-20">
                         <div className="bg-amber-50 rounded-2xl p-8 md:p-12 border border-amber-100 relative overflow-hidden">
                             <div className="relative z-10">
                                 <div className="flex items-center gap-4 mb-6">
-                                    <span className="bg-amber-500 text-white font-bold py-1 px-3 rounded text-sm">New</span>
-                                    <h3 className="text-2xl md:text-3xl font-bold text-slate-900">Sponsored Parent Visa <span className="text-amber-600">870</span></h3>
+                                    <span className="bg-amber-500 text-white font-bold py-1 px-3 rounded text-sm">
+                                        Temporary Option
+                                    </span>
+                                    <h3 className="text-2xl md:text-3xl font-bold text-slate-900">
+                                        Sponsored Parent Visa (Subclass 870)
+                                    </h3>
                                 </div>
+
                                 <p className="text-slate-700 mb-6 max-w-3xl">
-                                    A temporary visa allowing parents to stay for up to 3 or 5 years (cumulative generally up to 10 years).
-                                    <span className="font-bold text-slate-900"> No Balance of Family Test required.</span>
+                                    A temporary visa allowing parents of Australian citizens,
+                                    permanent residents, or eligible New Zealand citizens
+                                    to stay in Australia for 3 or 5 years at a time
+                                    (maximum cumulative stay generally up to 10 years).
+                                    <span className="font-semibold"> No Balance of Family Test required.</span>
                                 </p>
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                     <div className="bg-white p-6 rounded-xl shadow-sm border border-amber-100/50">
-                                        <h4 className="font-bold text-slate-900 mb-3 text-lg">Key Requirements</h4>
+                                        <h4 className="font-bold text-slate-900 mb-3 text-lg">
+                                            Core Requirements
+                                        </h4>
                                         <ul className="space-y-2 text-sm text-slate-600">
-                                            <li className="flex items-start gap-2"><span>•</span> Sponsor must be an approved parent sponsor.</li>
-                                            <li className="flex items-start gap-2"><span>•</span> Sponsor income requirement (~$83k).</li>
-                                            <li className="flex items-start gap-2"><span>•</span> Applicant requires health insurance.</li>
-                                            <li className="flex items-start gap-2"><span>•</span> Must be outside Australia (unless invited).</li>
+                                            <li>• Approved parent sponsor.</li>
+                                            <li>• Sponsor must meet minimum income threshold.</li>
+                                            <li>• Valid private health insurance required.</li>
+                                            <li>• No work rights under this visa.</li>
                                         </ul>
                                     </div>
+
                                     <div className="bg-white p-6 rounded-xl shadow-sm border border-amber-100/50">
-                                        <h4 className="font-bold text-slate-900 mb-3 text-lg">Visa Charges</h4>
+                                        <h4 className="font-bold text-slate-900 mb-3 text-lg">
+                                            Government Visa Charges
+                                        </h4>
                                         <ul className="space-y-4">
                                             <li className="flex justify-between items-center border-b border-gray-100 pb-2">
-                                                <span className="text-slate-600">Up to 3 Years</span>
+                                                <span className="text-slate-600">3-Year Visa</span>
                                                 <span className="font-bold text-amber-700">$5,000</span>
                                             </li>
                                             <li className="flex justify-between items-center border-b border-gray-100 pb-2">
-                                                <span className="text-slate-600">Up to 5 Years</span>
+                                                <span className="text-slate-600">5-Year Visa</span>
                                                 <span className="font-bold text-amber-700">$10,000</span>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="absolute top-0 right-0 w-64 h-64 bg-amber-200 rounded-full blur-[80px] opacity-20 translate-x-1/2 -translate-y-1/2"></div>
                         </div>
                     </div>
 
-                    {/* Contributory vs Non-Contributory Grid */}
+                    {/* Contributory vs Non-Contributory */}
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
 
                         {/* Contributory */}
                         <div className="space-y-8">
                             <div className="flex items-center gap-3 mb-2">
                                 <div className="h-10 w-1 bg-amber-500 rounded-full"></div>
-                                <h3 className="text-2xl font-bold text-slate-900 pt-1">Contributory Parent Visas</h3>
+                                <h3 className="text-2xl font-bold text-slate-900 pt-1">
+                                    Contributory Parent Visas
+                                </h3>
                             </div>
+
                             <p className="text-slate-600 text-sm mb-6">
-                                Higher visa charges for significantly faster processing. Includes both Permanent and Temporary options.
+                                Higher government charges with significantly shorter processing queues
+                                compared to non-contributory streams.
                             </p>
 
                             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
-                                <h4 className="text-lg font-bold text-slate-800 mb-2">Offshore Applications</h4>
-                                <div className="space-y-4 mt-4">
-                                    <div className="flex justify-between items-baseline">
-                                        <span className="font-semibold text-amber-600">Subclass 143</span>
-                                        <span className="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded">Permanent</span>
-                                    </div>
-                                    <p className="text-xs text-slate-500">~$47k/parent. Indefinite stay, work, study. Sponsor required.</p>
+                                <h4 className="text-lg font-bold text-slate-800 mb-2">
+                                    Offshore Applications
+                                </h4>
 
-                                    <div className="flex justify-between items-baseline border-t border-slate-100 pt-3">
-                                        <span className="font-semibold text-amber-600">Subclass 173</span>
-                                        <span className="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded">Temporary</span>
+                                <div className="space-y-4 mt-4">
+                                    <div>
+                                        <div className="flex justify-between">
+                                            <span className="font-semibold text-amber-600">
+                                                Subclass 143 (Permanent)
+                                            </span>
+                                        </div>
+                                        <p className="text-xs text-slate-500">
+                                            Direct permanent residency with work and study rights.
+                                        </p>
                                     </div>
-                                    <p className="text-xs text-slate-500">~$29k/parent. 2 years stay. Path to 143.</p>
+
+                                    <div className="border-t border-slate-100 pt-3">
+                                        <div className="flex justify-between">
+                                            <span className="font-semibold text-amber-600">
+                                                Subclass 173 (Temporary)
+                                            </span>
+                                        </div>
+                                        <p className="text-xs text-slate-500">
+                                            Two-year temporary visa pathway leading to Subclass 143.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
-                                <h4 className="text-lg font-bold text-slate-800 mb-2">Onshore (Aged) Applications</h4>
-                                <div className="space-y-4 mt-4">
-                                    <div className="flex justify-between items-baseline">
-                                        <span className="font-semibold text-amber-600">Subclass 864</span>
-                                        <span className="text-xs font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded">Permanent</span>
-                                    </div>
-                                    <p className="text-xs text-slate-500">For aged parents in Australia. Direct permanent residence.</p>
+                                <h4 className="text-lg font-bold text-slate-800 mb-2">
+                                    Onshore (Aged Parent) Options
+                                </h4>
 
-                                    <div className="flex justify-between items-baseline border-t border-slate-100 pt-3">
-                                        <span className="font-semibold text-amber-600">Subclass 884</span>
-                                        <span className="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-0.5 rounded">Temporary</span>
+                                <div className="space-y-4 mt-4">
+                                    <div>
+                                        <span className="font-semibold text-amber-600">
+                                            Subclass 864 (Permanent)
+                                        </span>
+                                        <p className="text-xs text-slate-500">
+                                            For aged parents in Australia meeting pension age criteria.
+                                        </p>
                                     </div>
-                                    <p className="text-xs text-slate-500">2 years temporary stay for aged parents.</p>
+
+                                    <div className="border-t border-slate-100 pt-3">
+                                        <span className="font-semibold text-amber-600">
+                                            Subclass 884 (Temporary)
+                                        </span>
+                                        <p className="text-xs text-slate-500">
+                                            Temporary pathway leading to permanent residence.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,46 +181,58 @@ const ParentVisa = () => {
                         <div className="space-y-8">
                             <div className="flex items-center gap-3 mb-2">
                                 <div className="h-10 w-1 bg-slate-400 rounded-full"></div>
-                                <h3 className="text-2xl font-bold text-slate-900 pt-1">Non-Contributory Visas</h3>
+                                <h3 className="text-2xl font-bold text-slate-900 pt-1">
+                                    Non-Contributory Parent Visas
+                                </h3>
                             </div>
+
                             <p className="text-slate-600 text-sm mb-6">
-                                Lower costs but extreme waiting periods (up to 30 years).
+                                Lower application charges but extremely long waiting periods
+                                due to annual visa caps.
                             </p>
 
                             <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-slate-800 mb-2">Parent Visa (103)</h4>
-                                <p className="text-sm text-slate-600 mb-2">Offshore Application</p>
+                                <h4 className="text-lg font-bold text-slate-800 mb-2">
+                                    Subclass 103 (Parent Visa)
+                                </h4>
                                 <ul className="text-xs text-slate-500 list-disc ml-4 space-y-1">
-                                    <li>Lower cost.</li>
-                                    <li>Wait time up to 30 years.</li>
-                                    <li>Must meet Balance of Family test.</li>
+                                    <li>Offshore application.</li>
+                                    <li>Must meet Balance of Family Test.</li>
+                                    <li>Processing can exceed 20–30 years.</li>
                                 </ul>
                             </div>
 
                             <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
-                                <h4 className="text-lg font-bold text-slate-800 mb-2">Aged Parent Visa (804)</h4>
-                                <p className="text-sm text-slate-600 mb-2">Onshore Application</p>
+                                <h4 className="text-lg font-bold text-slate-800 mb-2">
+                                    Subclass 804 (Aged Parent)
+                                </h4>
                                 <ul className="text-xs text-slate-500 list-disc ml-4 space-y-1">
-                                    <li>For applicants meeting age pension age.</li>
-                                    <li>Must be in Australia (no 'No Further Stay' condition).</li>
-                                    <li>Long bridging visa period (no work rights usually).</li>
+                                    <li>Onshore application.</li>
+                                    <li>Applicant must meet pension age.</li>
+                                    <li>Bridging visa may apply during processing.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    {/* CTA / Contact */}
-                    <div className="bg-slate-900 rounded-2xl p-10 md:p-14 text-center text-white relative overflow-hidden shadow-2xl max-w-5xl mx-auto">
-                        <div className="relative z-10">
-                            <h3 className="text-3xl font-bold mb-4">Complex Family Migration?</h3>
-                            <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">
-                                Parent visas involve complex criteria including the "Balance of Family Test" and "Assurance of Support". Let our experts guide you to the right subclass.
-                            </p>
-                            <a href="/#contact" className="inline-block px-10 py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-lg shadow-lg transition-transform transform hover:-translate-y-1">
-                                Book a Consultation
-                            </a>
-                        </div>
-                        <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/world_map.png')] opacity-10 bg-contain bg-no-repeat bg-center"></div>
+                    {/* CTA */}
+                    <div className="bg-slate-900 rounded-2xl p-10 md:p-14 text-center text-white shadow-2xl max-w-5xl mx-auto">
+                        <h3 className="text-3xl font-bold mb-4">
+                            Considering a Parent Visa Application?
+                        </h3>
+
+                        <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">
+                            Parent visa categories require careful assessment of eligibility,
+                            sponsorship obligations, and long-term planning.
+                            Speak with our migration specialists for tailored advice.
+                        </p>
+
+                        <a
+                            href="/#contact"
+                            className="inline-block px-10 py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-lg shadow-lg transition-transform transform hover:-translate-y-1"
+                        >
+                            Request Consultation
+                        </a>
                     </div>
 
                 </div>
