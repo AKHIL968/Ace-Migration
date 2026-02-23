@@ -28,30 +28,20 @@ function Header() {
             dropdown: [
                 {
                     name: 'Study Visa',
-                    link: '/migration/study-visa',
-                    subDropdown: [
-                        { name: 'Temporary Study Visa - Subclass 485', link: '/migration/study-visa/temporary' },
-                        { name: 'Post Study Work Visa - Subclass 485', link: '/migration/study-visa/post-study' },
-
-                    ]
+                    link: '/migration/study-visa'
                 },
                 {
                     name: 'Permanent Visa',
-                    link: '/migration/permanent-visa',
-                    subDropdown: [
-                        { name: 'Skilled Independent Visa - Subclass 189', link: '/migration/permanent-visa/skilled-independent' },
-                        { name: 'Skilled Nominated Visa - Subclass 190', link: '/migration/permanent-visa/skilled-nominated' },
-
-                    ]
+                    link: '/migration/permanent-visa'
                 },
                 {
                     name: 'Regional Visa',
                     link: '/migration/regional-visa',
-                    subDropdown: [
-                        { name: 'Permanent Resident (Skillled Regional) Visa - Subclass 191', link: '/migration/regional-visa/permanent' },
-                        { name: 'Skilled Work Regional (Provisional) Visa - Subclass 491', link: '/migration/regional-visa/skilled-work' },
+                    // subDropdown: [
+                    //     { name: 'Permanent Resident (Skillled Regional) Visa - Subclass 191', link: '/migration/regional-visa/permanent' },
+                    //     { name: 'Skilled Work Regional (Provisional) Visa - Subclass 491', link: '/migration/regional-visa/skilled-work' },
 
-                    ]
+                    // ]
                 },
 
             ]

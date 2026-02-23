@@ -3,12 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Header from "./common/Header";
 import Footer from "./common/Footer";
-import TemporaryStudy from "./Pages/Migration/Study Visa/TemporaryStudy";
-import PostStudy from "./Pages/Migration/Study Visa/PostStudy";
-import SkilledIndependent from "./Pages/Migration/Permanent Visa/SkilledIndependent";
-import SkilledNominated from "./Pages/Migration/Permanent Visa/SkilledNominated";
-import PermanentResidence from "./Pages/Migration/Regional Visa/PermanentResidence";
-import SkilledWorkRegional from "./Pages/Migration/Regional Visa/SkilledWorkRegional";
+import StudyVisa from "./Pages/Migration/Study Visa/StudyVisa";
+import PermanentVisa from "./Pages/Migration/Permanent Visa/PermanentVisa";
+import RegionalVisa from "./Pages/Migration/Regional Visa/RegionalVisa";
 import AustraliaBasics from "./Pages/Study Overseas/Study In Australia/AustraliaBasics";
 import EarningAndSpending from "./Pages/Study Overseas/Study In Australia/EarningAndSpending";
 import EducationSystem from "./Pages/Study Overseas/Study In Australia/EducationSystem";
@@ -40,12 +37,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/migration/study-visa/temporary" element={<TemporaryStudy />} />
-        <Route path="/migration/study-visa/post-study" element={<PostStudy />} />
-        <Route path="/migration/permanent-visa/skilled-independent" element={<SkilledIndependent />} />
-        <Route path="/migration/permanent-visa/skilled-nominated" element={<SkilledNominated />} />
-        <Route path="/migration/regional-visa/permanent" element={<PermanentResidence />} />
-        <Route path="/migration/regional-visa/skilled-work" element={<SkilledWorkRegional />} />
+        <Route path="/migration/study-visa" element={<StudyVisa />} />
+        <Route path="/migration/permanent-visa" element={<PermanentVisa />} />
+        <Route path="/migration/regional-visa" element={<RegionalVisa />} />
         <Route path="/visitor-visa/family-sponsored" element={<FamilySponsoredVisa />} />
         <Route path="/visitor-visa/work-and-holiday" element={<WorkAndHolidayVisa />} />
         <Route path="/study-overseas/australia/basics" element={<AustraliaBasics />} />
