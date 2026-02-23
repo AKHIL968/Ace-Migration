@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo-Photoroom.png';
-import EnquiryForm from '../components/EnquiryForm';
+import { useEnquiry } from '../context/EnquiryContext';
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(null);
     const [openSubDropdown, setOpenSubDropdown] = useState(null);
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isEnquiryModalOpen, setIsEnquiryModalOpen] = useState(false);
+    const { openEnquiryModal } = useEnquiry();
 
     // Handle scroll to hide/show top bar
     useState(() => {
@@ -175,7 +175,7 @@ function Header() {
                     </div>
                     <div
                         className="flex items-center gap-2 text-sm text-gray-700 lg:mr-2 cursor-pointer hover:text-blue-600 transition-colors"
-                        onClick={() => setIsEnquiryModalOpen(true)}
+                        onClick={openEnquiryModal}
                     >
                         <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -436,11 +436,6 @@ function Header() {
                     </div>
                 </div>
             </header>
-            {/* Enquiry Form Modal */}
-            <EnquiryForm
-                isOpen={isEnquiryModalOpen}
-                onClose={() => setIsEnquiryModalOpen(false)}
-            />
         </>
     );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEnquiry } from '../context/EnquiryContext';
 import migrationImg from '../assets/migration.png';
 import educationImg from '../assets/education.png';
 import refusalsImg from '../assets/refusals.png';
@@ -40,6 +41,8 @@ const services = [
 ];
 
 const FeaturedServices = () => {
+    const { openEnquiryModal } = useEnquiry();
+
     return (
         <section className="relative py-32 bg-white font-sans overflow-hidden">
             {/* Artistic Background Accents */}
@@ -71,7 +74,8 @@ const FeaturedServices = () => {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className={`group relative rounded-[3rem] overflow-hidden flex flex-col bg-gray-50/50 border border-gray-100 transition-all duration-700 hover:shadow-[0_50px_100px_rgba(0,0,0,0.08)] hover:-translate-y-2 ${service.gridClass}`}
+                            onClick={openEnquiryModal}
+                            className={`group relative rounded-[3rem] overflow-hidden flex flex-col bg-gray-50/50 border border-gray-100 transition-all duration-700 hover:shadow-[0_50px_100px_rgba(0,0,0,0.08)] hover:-translate-y-2 cursor-pointer ${service.gridClass}`}
                         >
                             {/* Massive Background Numeral */}
                             <span className="absolute -bottom-10 -right-10 text-[15rem] font-black text-gray-900/[0.03] pointer-events-none group-hover:text-orange-500/[0.05] transition-colors duration-700 leading-none">
@@ -97,7 +101,7 @@ const FeaturedServices = () => {
 
                                     <div className="space-y-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
                                         <div className="space-y-2">
-                                            <h3 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase leading-none">
+                                            <h3 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase leading-none cursor-pointer hover:text-orange-500 transition-colors">
                                                 {service.title}
                                             </h3>
                                             <div className="h-[3px] w-0 bg-orange-500 group-hover:w-20 transition-all duration-700 delay-100"></div>
@@ -113,7 +117,7 @@ const FeaturedServices = () => {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                                 </svg>
                                             </div>
-                                            <span className="text-white text-xs font-black uppercase tracking-[0.2em]">Explore Service</span>
+                                            <span className="text-white text-xs font-black uppercase tracking-[0.2em] group-hover:text-orange-500 transition-colors">Explore Service</span>
                                         </div>
                                     </div>
                                 </div>

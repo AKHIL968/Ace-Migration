@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useEnquiry } from '../context/EnquiryContext';
 import migrationImg from '../assets/graduate_hero_bg.png';
 import studyImg from '../assets/students_group 1.png';
 
@@ -24,6 +25,7 @@ const slides = [
 function Hero() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
+    const { openEnquiryModal } = useEnquiry();
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -76,7 +78,10 @@ function Hero() {
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-center gap-8 animate-fade-in delay-300">
-                        <button className="group relative px-10 py-5 bg-gray-950 text-white font-black rounded-full overflow-hidden transition-all hover:bg-orange-500 active:scale-95 shadow-2xl shadow-gray-200">
+                        <button
+                            onClick={openEnquiryModal}
+                            className="group relative px-10 py-5 bg-gray-950 text-white font-black rounded-full overflow-hidden transition-all hover:bg-orange-500 active:scale-95 shadow-2xl shadow-gray-200"
+                        >
                             <span className="relative z-10 flex items-center gap-4 text-xs tracking-[0.3em] uppercase">
                                 {slides[currentSlide].cta}
                                 <svg className="w-5 h-5 transition-transform group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

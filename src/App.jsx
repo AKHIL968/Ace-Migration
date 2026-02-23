@@ -28,10 +28,11 @@ import BusinessVisa from "./Pages/Others/BusinessVisa";
 import PartnerVisa from "./Pages/Others/Family Visa/PartnerVisa";
 import ParentVisa from "./Pages/Others/Family Visa/ParentVisa";
 import ScrollToTop from "./components/ScrollToTop";
+import { EnquiryProvider } from "./context/EnquiryContext";
 
 function App() {
   return (
-    <>
+    <EnquiryProvider>
       <ScrollToTop />
       <Header />
 
@@ -64,7 +65,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+    </EnquiryProvider>
   );
 }
 
