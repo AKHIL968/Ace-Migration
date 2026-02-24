@@ -109,7 +109,7 @@ const ContactForm = () => {
                             </div>
                             <div className="flex flex-col">
                                 <span className="text-gray-500 text-[10px] uppercase font-black tracking-widest">Expertise</span>
-                                <span className="text-white font-bold text-sm">MARA & PIER Certified</span>
+                                <span className="text-white font-bold text-sm">Official Certified</span>
                             </div>
                         </div>
 
